@@ -1,0 +1,16 @@
+{
+	"routes": {
+		"pages": ":filename",
+		"index": ":paginate(totalPages)"
+	},
+	"baseurl": "/",
+	"build": "public",
+	"local": {
+		"port": 3000
+	},
+	"cms": {
+		"repo": "https://github.com/jmlauranson/plenti",
+		"redirect_url": "http://localhost:3000/admin/",
+		"app_id": ""
+	}
+}
